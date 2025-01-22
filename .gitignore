@@ -1,0 +1,10 @@
+*
+!.gitignore
+!readme.md
+
+# specific files in sub folders
+!*/
+**/obj/*
+.vscode/*
+!**.csproj
+!**.cs
