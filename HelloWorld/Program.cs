@@ -4,5 +4,10 @@ var name = Console.ReadLine();
 var currentDate = DateTime.Now;
 // The currentDate formats in the console are system formats, so they may not be exactly the same as in the video tutorial.
 Console.WriteLine($"{Environment.NewLine}Hello, {name}, on {currentDate:d} at {currentDate:t}");
+
+// Not necessary to ask user to close.
 Console.Write($"{Environment.NewLine}Press any key to exit...");
 Console.ReadKey(true);
+
+// Farewell
+Console.WriteLine("You reached the end of the Hello World. Congraz!");
